@@ -162,7 +162,7 @@ namespace sample.Controllers
                     // string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
                     // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
                     // await UserManager.SendEmailAsync(user.Id, "계정 확인", "<a href=\"" + callbackUrl + "\">여기</a>를 클릭하여 계정을 확인하십시오.");
-
+                    // 주석처리
                     return RedirectToAction("Index", "Home");
                 }
                 AddErrors(result);
